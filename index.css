@@ -35,3 +35,21 @@ body p{
 #div + p{
     background-color: deeppink;
 }
+ul{
+    list-style-type: lower-alpha;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: red;
+    background-color: lime;
+}
+ul li a:visited{
+    color: grey;
+}
+ul li a:active{
+    background-color: black;
+    color: white;
+}

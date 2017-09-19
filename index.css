@@ -6,21 +6,22 @@
 }
 .inside{
     font-size: 30px;
-}
+}/*
 a[href*="hhc"]{
-    color: darkcyan;
+    color: whitesmoke;
 }
 a[href*="roglebk"]{
-    color: limegreen;
+    color: whitesmoke;
 }
 a[href*="swe"]{
-    color: darkgoldenrod;
+    color: whitesmoke;
 }
 a[href$="html"]{
-    color: darkblue;
-}
+    color: black;
+}*/
 h1{
     background-color: grey;
+    margin: 0 auto;
 }
 body p{
     background-color: red;
@@ -36,20 +37,57 @@ body p{
     background-color: deeppink;
 }
 ul{
-    list-style-type: lower-alpha;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: lightgray;
+    height: 100%;
+
 }
 ul li a{
     text-decoration: none;
+    display: block;
+    color: black;
+    width: 250px;
+    padding: 8px 16px;
+
 }
 ul li a:hover{
-    text-decoration: underline;
-    color: red;
-    background-color: lime;
-}
-ul li a:visited{
-    color: grey;
+    color: white;
+    background-color: #555;
 }
 ul li a:active{
-    background-color: black;
+    background-color: #4CAF50;
     color: white;
+}
+.page{
+    width: 1080px;
+    margin: 0 auto;
+    height: 100%;
+}
+#nav{
+    float: left;
+    width: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 100%;
+}
+#main{
+    float: left;
+    width: 830px;
+    margin: 0 auto;
+    height: 100%;
+}
+h3{
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    background-color: lightgray;
+}
+header{
+    width: 1080px;
+    height: 80px;
+    float: left;
+    overflow: hidden;
 }

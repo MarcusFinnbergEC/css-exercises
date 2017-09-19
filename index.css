@@ -7,3 +7,15 @@
 .inside{
     font-size: 30px;
 }
+a[href*="hhc"]{
+    color: darkcyan;
+}
+a[href*="roglebk"]{
+    color: limegreen;
+}
+a[href*="swe"]{
+    color: darkgoldenrod;
+}
+a[href$="html"]{
+    color: darkblue;
+}

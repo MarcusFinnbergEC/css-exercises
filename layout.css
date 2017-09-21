@@ -1,0 +1,53 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 800px;
+    height: 40px;
+    float: left;
+    background-color: palevioletred;
+    box-sizing: border-box;
+    position: absolute;
+}
+nav{
+    width: 800px;
+    height: 40px;
+    float: left;
+    background-color: mediumseagreen;
+    box-sizing: border-box;
+    position: absolute;
+}
+main{
+    width: 550px;
+    height: 400px;
+    float: left;
+    background-color: rebeccapurple;
+    box-sizing: border-box;
+    position: absolute;
+}
+aside{
+    width: 250px;
+    height: 400px;
+    float: right;
+    background-color: cyan;
+    box-sizing: border-box;
+    position: absolute;
+}
+footer{
+    width: 800px;
+    height: 25px;
+    background-color: orangered;
+    background-size: cover;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+}
+div{
+    position: relative;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+}

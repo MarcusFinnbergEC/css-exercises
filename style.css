@@ -1,0 +1,6 @@
+article p:first-child:first-line{
+color:green;
+}
+article:before{
+    content: url(./Images/dice.jpg);
+}

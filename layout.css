@@ -4,6 +4,12 @@ body{
     margin: 0;
     padding: 0;
 }
+div{
+    position: relative;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+}
 header{
     width: 800px;
     height: 40px;
@@ -11,6 +17,7 @@ header{
     background-color: palevioletred;
     box-sizing: border-box;
     position: absolute;
+    clear: both;
 }
 nav{
     width: 800px;
@@ -19,6 +26,7 @@ nav{
     background-color: mediumseagreen;
     box-sizing: border-box;
     position: absolute;
+    clear:both
 }
 main{
     width: 550px;
@@ -27,6 +35,7 @@ main{
     background-color: rebeccapurple;
     box-sizing: border-box;
     position: absolute;
+    clear:left;
 }
 aside{
     width: 250px;
@@ -35,6 +44,7 @@ aside{
     background-color: cyan;
     box-sizing: border-box;
     position: absolute;
+    clear: right;
 }
 footer{
     width: 800px;
@@ -44,10 +54,5 @@ footer{
     box-sizing: border-box;
     position: absolute;
     bottom: 0;
-}
-div{
-    position: relative;
-    height: auto;
-    width: auto;
-    box-sizing: border-box;
+    clear:both;
 }

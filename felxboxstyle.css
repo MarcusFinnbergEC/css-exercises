@@ -1,0 +1,16 @@
+section{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+article{
+    background-color: #555555;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    float: left;
+    margin: 15px;
+}
